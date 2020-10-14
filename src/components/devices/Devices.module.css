@@ -1,0 +1,59 @@
+.page{
+    height: 100vh;
+    background-size: fill;
+    background-image: url(https://images.pexels.com/photos/994883/pexels-photo-994883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); 
+}
+
+.search {
+    width: -moz-available;
+    width: -webkit-fill-available;
+	width: fill-available;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+.header{
+	text-align: center;
+	font-weight: bold;
+}
+
+.devices{
+ 	box-shadow: 0px 0px 0px 2px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6ec2c2 100%);
+	background-color:#768d87;
+	border-radius:42px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight: bold;
+	padding:8px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #225c53;
+}
+.spliter{
+	display:flex;
+	justify-content: space-evenly;
+	width: 40vh;
+}
+.text{
+	padding: 20px;
+}
+
+.devices:hover{
+	background:linear-gradient(to bottom, #6ec2c2 5%, #768d87 100%);
+	background-color:#6ec2c2;
+}
+
+
+.controlPanel {
+	background-image: url(http://clipart-library.com/images/6TpLya7TE.jpg);
+	background-size: cover;
+	background-color: white;
+	padding: 60px;
+	text-align: center;
+}

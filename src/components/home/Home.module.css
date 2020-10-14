@@ -1,0 +1,95 @@
+.page{
+    height: 100vh;
+    background-size: fill;
+    background-image: url(https://images.pexels.com/photos/994883/pexels-photo-994883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); 
+}
+
+.devices {
+	position: absolute;
+	top: 0;
+    right: 0;
+ 	box-shadow: 0px 0px 0px 2px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6ec2c2 100%);
+	background-color:#768d87;
+	border-radius:42px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+    font-size:15px;
+    font-weight: bold;
+	padding:8px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #225c53;
+}
+
+.devices:hover{
+	background:linear-gradient(to bottom, #6ec2c2 5%, #768d87 100%);
+	background-color:#6ec2c2;
+}
+
+.header {
+	position: relative;
+	width: 100%;
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.acknowledgedButton {
+	position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 16pt;
+}
+
+.imageContainer {
+    background-size: fit;
+	width: 100%;
+	display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.alert {
+    
+    width: 500px;
+    height: 500px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.alertHeader {
+    width: 100%;
+    text-align: center;
+    font-size: 32pt;
+    color: red;
+    margin-bottom: 25px;
+    border-bottom: 5px solid red;
+}
+
+.alertText {
+    font-size: 18pt;
+    text-align: center;
+}
+
+.alertSpacing {
+    flex: 1;
+}
+
+.alertButton {
+    border-left: none;
+    border-right: none;
+}
+
+
+
+
+
+
+

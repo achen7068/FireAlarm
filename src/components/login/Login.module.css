@@ -1,0 +1,28 @@
+.container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.row {
+	display: flex;
+	flex-direction: column;
+	width: 450px;
+}
+
+.row > input {
+	background: #fff;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	height: 35px;
+}
+
+.imageContainer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}

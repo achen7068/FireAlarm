@@ -1,0 +1,22 @@
+.table {
+    width: -moz-available;
+    width: -webkit-fill-available;
+	width: fill-available;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.td {
+	padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.tr:hover {
+	background-color: #aaaaaa;
+}
+
+.clickable {
+	cursor: pointer;
+	user-select: none;
+}
