@@ -10,6 +10,7 @@ export default class DeviceList extends React.Component {
 				<th scope="col">Description</th>
 				<th scope="col">Status</th>
 				<th scope="col">Date</th>
+				<th scope="col">Time</th>
 			</tr>
 			{
 				this.props.devices.map(device => {
@@ -20,6 +21,7 @@ export default class DeviceList extends React.Component {
 						<td className={styles.td}>{device.description}</td>
 						<td className={styles.td}>{device.status}</td>
 						<td className={styles.td}>{device.date}</td>
+						<td className={styles.td}>{device.time}</td>
 					</tr>
 				})
 			}

@@ -14,25 +14,29 @@ export default class Home extends React.Component {
 				name: "Device 4",
 				description: "At the theater room",
 				status: "Trouble",
-				date: new Date().toDateString()
+				date: new Date().toDateString(),
+				time: "12:45 PM"
 			},
 			{
 				name: "Device 5",
 				description: "At the kitchen",
 				status: "Trouble",
-				date: new Date().toDateString()
+				date: new Date().toDateString(),
+				time: "5:32 PM"
 			},
 			{
 				name: "Device 9",
 				description: "At the west hall, second floor",
 				status: "Active",
-				date: new Date().toDateString()
+				date: new Date().toDateString(),
+				time: "1:15 AM"
 			},
 			{
 				name: "Device 10",
 				description: "At the east hall, second floor",
 				status: "Trouble",
-				date: new Date().toDateString()
+				date: new Date().toDateString(),
+				time: "7:26 AM"
 			}
 		]
 	}
